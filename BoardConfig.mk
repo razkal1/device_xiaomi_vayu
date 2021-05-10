@@ -137,6 +137,9 @@ TARGET_SCREEN_DENSITY := 440
 include device/qcom/sepolicy/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
+# Tap2Wake
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+
 # Treble
 BOARD_VNDK_VERSION := current
 
